@@ -2,6 +2,39 @@
 <html>
     <title>Let try</title>
     <body>
-        <h1>Hope this work</h1>
+        <h1>Form</h1>
+        <form>
+           <label for="username">Name:</label>
+          <input type="text" id="username">
+          <br />
+
+          <label for="Email">Email:</label>
+          <input type="email" id="Email">
+          <br />
+          <label for="pass">password:</label>
+          <input type="password" id="pass">
+          <br /><br>
+
+        <p>Select you Age:</p>
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <br>
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-2">26-50</label>
+        <br>
+        <input type="radio" name="age" value="50+" id="option-3">
+        <label for="option-3">50+</label>
+        <br><br>
+
+        <label for="questions">security questions:</label>
+        <select name="questions" id=questions">
+            <option value="q1">what is your fav color</option>
+            <option value="q2">what is your fav teacher</option>
+            <option value="q3">what is your team</option>
+        </select><br><br>
+
+        <lable for="bio">Your Bio:</lable><br>
+        <textarea name=" bio" id ="bio" rows="5" placeholder="....."></textarea>
+        </form>
     </body>
 </html>
